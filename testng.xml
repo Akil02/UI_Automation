@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	  <listeners>
+		  <listener class-name="Common.Transformer"/>
+   <listener class-name="Common.Listener"/>
+</listeners>
+  <test name="OrangeHrm">
+	  <parameter name="Orange" value="Ordhrd"/>
+    <classes>
+  <!--    <class name="OrangeHRM_SmokeTest.Testcase1_Admin"/>
+      <class name="OrangeHRM_SmokeTest.Testcase3_Recruitment"/>
+      <class name="OrangeHRM_SmokeTest.Testcase2_Leave"/>     
+      <class name="OrangeHRM_SmokeTest.Testcase4_PersonalInfo"/>     
+      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance"/>   -->
+      <class name="OrangeHRM_SmokeTest.Testcase1_Admin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

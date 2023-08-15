@@ -1,0 +1,61 @@
+2023-08-11 10:53:47.461 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 10:54:12.257 [main] INFO  Common.Listener - Test Method: AccessRecords started.
+2023-08-11 10:54:34.490 [main] ERROR Common.Listener - Test Method: AccessRecords failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = 'Employee Name']//ancestor::div[1]//following::div//div//div//input"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8dec42c10b921da6758dc84e57ab9b1d, findElement {using=xpath, value=//*[text() = 'Employee Name']//ancestor::div[1]//following::div//div//div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49876/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8dec42c10b921da6758dc84e57ab9b1d
+2023-08-11 10:54:34.590 [main] ERROR Common.Listener - Test Method: AccessRecords failed and the exception is : io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+2023-08-11 10:54:34.746 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 10:59:24.655 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 10:59:38.671 [main] INFO  Common.Listener - Test Method: AccessRecords started.
+2023-08-11 10:59:59.409 [main] ERROR Common.Listener - Test Method: AccessRecords failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = 'Employee Name']//ancestor::div[1]//following::div//div//div//input"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9daafd821b8c072e11e99c1fea403c2, findElement {using=xpath, value=//*[text() = 'Employee Name']//ancestor::div[1]//following::div//div//div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60357/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9daafd821b8c072e11e99c1fea403c2
+2023-08-11 11:00:01.179 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 21:34:11.039 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 21:34:25.767 [main] INFO  Common.Listener - Test Method: AccessRecords started.
+2023-08-11 21:34:39.800 [main] INFO  Common.Listener - Test Method: AccessRecords passed.
+2023-08-11 21:34:40.090 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 21:52:27.229 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 21:52:38.951 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 21:52:56.421 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 21:52:56.657 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 21:53:46.278 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 21:53:57.276 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 21:54:14.762 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 21:54:14.897 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 21:56:11.129 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 21:56:22.025 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 21:56:39.740 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 21:56:39.900 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 22:08:44.564 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 22:08:55.937 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 22:09:14.269 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 22:09:14.428 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 22:10:44.814 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 22:10:56.906 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 22:11:15.492 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 22:11:15.689 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 22:49:19.927 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 22:49:32.000 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 22:49:50.630 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 22:49:50.750 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 22:55:45.122 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 22:55:58.268 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 22:56:16.781 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 22:56:17.051 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-11 23:54:49.271 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-11 23:55:06.354 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2023-08-11 23:55:23.973 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2023-08-11 23:55:24.095 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
