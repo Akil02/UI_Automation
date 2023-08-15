@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-13T01:27:11 IST" name="Suite" finished-at="2023-08-13T01:27:47 IST" duration-ms="36286">
+  <suite started-at="2023-08-15T23:49:13 IST" name="Suite" finished-at="2023-08-15T23:49:49 IST" duration-ms="35948">
     <groups>
     </groups>
-    <test started-at="2023-08-13T01:27:11 IST" name="OrangeHrm" finished-at="2023-08-13T01:27:47 IST" duration-ms="36286">
+    <test started-at="2023-08-15T23:49:13 IST" name="OrangeHrm" finished-at="2023-08-15T23:49:49 IST" duration-ms="35948">
       <class name="OrangeHRM_SmokeTest.Testcase1_Admin">
-        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:13 IST" name="Start" finished-at="2023-08-13T01:27:23 IST" duration-ms="10179" status="PASS">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:16 IST" name="Start" finished-at="2023-08-15T23:49:25 IST" duration-ms="9073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method signature="Admin_UserRole()[pri:1, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:23 IST" name="Admin_UserRole" finished-at="2023-08-13T01:27:27 IST" duration-ms="3248" status="PASS">
+        <test-method signature="Admin_UserRole()[pri:1, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:25 IST" name="Admin_UserRole" finished-at="2023-08-15T23:49:29 IST" duration-ms="3538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_UserRole -->
-        <test-method signature="Admin_EmployeeName()[pri:2, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:27 IST" name="Admin_EmployeeName" finished-at="2023-08-13T01:27:32 IST" duration-ms="5154" status="PASS">
+        <test-method signature="Admin_EmployeeName()[pri:2, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:29 IST" name="Admin_EmployeeName" finished-at="2023-08-15T23:49:34 IST" duration-ms="5155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_EmployeeName -->
-        <test-method signature="Admin_Status()[pri:3, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:32 IST" name="Admin_Status" finished-at="2023-08-13T01:27:34 IST" duration-ms="2148" status="PASS">
+        <test-method signature="Admin_Status()[pri:3, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:34 IST" name="Admin_Status" finished-at="2023-08-15T23:49:36 IST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_Status -->
-        <test-method signature="Admin_Username()[pri:4, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:34 IST" name="Admin_Username" finished-at="2023-08-13T01:27:36 IST" duration-ms="2072" status="PASS">
+        <test-method signature="Admin_Username()[pri:4, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:36 IST" name="Admin_Username" finished-at="2023-08-15T23:49:38 IST" duration-ms="2088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_Username -->
-        <test-method signature="Admin_Password()[pri:5, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:36 IST" name="Admin_Password" finished-at="2023-08-13T01:27:38 IST" duration-ms="2075" status="PASS">
+        <test-method signature="Admin_Password()[pri:5, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:38 IST" name="Admin_Password" finished-at="2023-08-15T23:49:40 IST" duration-ms="2075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_Password -->
-        <test-method signature="Admin_ConfirmPassword()[pri:6, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:38 IST" name="Admin_ConfirmPassword" finished-at="2023-08-13T01:27:45 IST" duration-ms="7159" status="PASS">
+        <test-method signature="Admin_ConfirmPassword()[pri:6, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:40 IST" name="Admin_ConfirmPassword" finished-at="2023-08-15T23:49:47 IST" duration-ms="7144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_ConfirmPassword -->
-        <test-method signature="Admin_SystemUsername()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:45 IST" name="Admin_SystemUsername" finished-at="2023-08-13T01:27:47 IST" depends-on-methods="OrangeHRM_SmokeTest.Testcase1_Admin.Admin_ConfirmPassword" duration-ms="1387" status="PASS">
+        <test-method signature="Admin_SystemUsername()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:47 IST" name="Admin_SystemUsername" finished-at="2023-08-15T23:49:49 IST" depends-on-methods="OrangeHRM_SmokeTest.Testcase1_Admin.Admin_ConfirmPassword" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Admin_SystemUsername -->
-        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@7383eae2]" started-at="2023-08-13T01:27:47 IST" name="End" finished-at="2023-08-13T01:27:47 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@77192705]" started-at="2023-08-15T23:49:49 IST" name="End" finished-at="2023-08-15T23:49:49 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
