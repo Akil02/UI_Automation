@@ -73,6 +73,11 @@ public class Testcase4_PersonalInfo {
     	new Personal_Details(driver).PersonlD(oid,nat,y,m,d,ge,b);
     }
     
+ /*   @Test(priority = 2)
+    public void Image_Add() throws Exception {
+    	new Personal_Details(driver).Profile_Image();
+    }  */
+    
     @AfterClass
     public void End() {
     	driver.close();

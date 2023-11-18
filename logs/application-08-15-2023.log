@@ -1,0 +1,88 @@
+2023-08-13 01:20:20.116 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-13 01:20:34.743 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-08-13 01:20:37.936 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-08-13 01:20:37.941 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-08-13 01:20:43.152 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-08-13 01:20:43.160 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-08-13 01:20:45.354 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-08-13 01:20:45.368 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-08-13 01:20:47.458 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-08-13 01:20:47.460 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-08-13 01:20:49.548 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-08-13 01:20:49.548 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-08-13 01:20:56.685 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-08-13 01:20:56.689 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-08-13 01:20:57.856 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2023-08-13 01:20:58.501 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-13 01:24:08.992 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-13 01:24:25.115 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-08-13 01:24:28.541 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-08-13 01:24:28.550 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-08-13 01:24:33.727 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-08-13 01:24:33.727 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-08-13 01:24:35.879 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-08-13 01:24:35.883 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-08-13 01:24:37.982 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-08-13 01:24:37.983 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-08-13 01:24:40.059 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-08-13 01:24:40.061 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-08-13 01:24:47.234 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-08-13 01:24:47.240 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-08-13 01:24:49.110 [main] ERROR Common.Listener - Test Method: Admin_SystemUsername failed and the exception is : org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [945d08936addd81bf6216e5e1fd1f263, clickElement {id=84C1A3FA97B8419895B4ACA1F59D7B52_element_51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53985}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53985/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (945d08936addd81bf6216e5e1fd1f263)] -> xpath: //*[@type = 'submit']]
+Session ID: 945d08936addd81bf6216e5e1fd1f263
+2023-08-13 01:25:04.062 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-13 01:27:11.000 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-13 01:27:23.897 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-08-13 01:27:27.136 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-08-13 01:27:27.141 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-08-13 01:27:32.294 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-08-13 01:27:32.294 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-08-13 01:27:34.442 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-08-13 01:27:34.444 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-08-13 01:27:36.515 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-08-13 01:27:36.515 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-08-13 01:27:38.590 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-08-13 01:27:38.590 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-08-13 01:27:45.754 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-08-13 01:27:45.762 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-08-13 01:27:47.149 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2023-08-13 01:27:47.349 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-13 01:31:08.402 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-13 01:31:22.186 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-08-13 01:31:25.074 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-08-13 01:31:25.074 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-08-13 01:31:30.245 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-08-13 01:31:30.245 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-08-13 01:31:32.387 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-08-13 01:31:32.389 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-08-13 01:31:34.506 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-08-13 01:31:34.507 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-08-13 01:31:36.580 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-08-13 01:31:36.580 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-08-13 01:31:43.733 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-08-13 01:31:43.737 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-08-13 01:31:45.190 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2023-08-13 01:31:45.356 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-15 23:49:13.590 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-15 23:49:25.497 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-08-15 23:49:29.033 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-08-15 23:49:29.038 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-08-15 23:49:34.192 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-08-15 23:49:34.192 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-08-15 23:49:36.334 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-08-15 23:49:36.334 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-08-15 23:49:38.422 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-08-15 23:49:38.422 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-08-15 23:49:40.497 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-08-15 23:49:40.497 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-08-15 23:49:47.644 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-08-15 23:49:47.651 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-08-15 23:49:49.437 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2023-08-15 23:49:49.560 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.

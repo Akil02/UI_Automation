@@ -1,5 +1,6 @@
 package pageobject;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.apache.commons.math3.analysis.solvers.PegasusSolver;
@@ -13,6 +14,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Common.Base;
 
@@ -38,6 +41,10 @@ public class Personal_Details {
     By bloodtype = By.xpath("//*[@role = 'listbox']//div");
     By addfilebutton = By.xpath("//*[text() = 'Attachments']//following-sibling::button");
     By atttachfile = By.xpath("//*[@type = 'file']");
+  //  By image_click = By.xpath("//*[@class= 'employee-image']");
+    By image_click = By.xpath("//*[@class= 'employee-image']//ancestor::div[1]");
+    By img_pic = By.xpath("//*[@type = 'file']//following::div//div//img");
+    By p_details = By.xpath("//*[@role = 'tablist']//div[1]//a");
     
 	public Personal_Details(WebDriver driver) {
 		this.driver = driver;
@@ -129,5 +136,32 @@ public class Personal_Details {
 		driver.findElement(atttachfile).sendKeys("C:\\Users\\A AKIL GANESH\\Downloads\\nextdayupdate.txt");
 		Thread.sleep(2000);
 		but.get(1).click();
+		Thread.sleep(2000);
+	}
+	
+	public void Profile_Image() throws Exception {
+		String filePath = "C:\\Users\\A AKIL GANESH\\L1.jpg";
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30)); // Wait for up to 10 seconds
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(image_click)));
+        try {
+        driver.findElement(image_click).click();
+		Thread.sleep(8000);
+	/*	WebElement fileInput = wait.until(ExpectedConditions.elementToBeClickable(img_pic));
+		fileInput.sendKeys(filePath); */
+		JavascriptExecutor js = (JavascriptExecutor) driver; 
+		js.executeScript("arguments[0].setAttribute('style', arguments[1])", driver.findElement(img_pic), "0");
+		js.executeScript("arguments[0].setAttribute('class', arguments[1])", driver.findElement(img_pic), "a");
+		driver.findElement(img_pic).sendKeys(filePath);
+		Thread.sleep(8000);
+		driver.findElement(button).click();
+		Thread.sleep(8000);
+		driver.findElement(p_details).click();
+		Thread.sleep(5000);
+        }
+        catch(Exception e) {
+        	System.out.println("----------------");
+        	System.out.println(e.getMessage());
+        }
+        
 	}
 }

@@ -8,13 +8,19 @@
   <test thread-count="5" name="OrangeHrm(failed)">
     <parameter name="Orange" value="Ordhrd"/>
     <classes>
-      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance">
+      <class name="OrangeHRM_SmokeTest.Testcase1_Admin">
         <methods>
-          <include name="End"/>
-          <include name="AccessRecords"/>
+          <include name="Admin_EmployeeName"/>
           <include name="Start"/>
+          <include name="Admin_Username"/>
+          <include name="Admin_Password"/>
+          <include name="End"/>
+          <include name="Admin_SystemUsername"/>
+          <include name="Admin_Status"/>
+          <include name="Admin_UserRole"/>
+          <include name="Admin_ConfirmPassword"/>
         </methods>
-      </class> <!-- OrangeHRM_SmokeTest.Testcase5_Maintenance -->
+      </class> <!-- OrangeHRM_SmokeTest.Testcase1_Admin -->
     </classes>
   </test> <!-- OrangeHrm(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -30,6 +30,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -43,10 +44,13 @@ import io.restassured.response.Response;
 public class Base {
     public WebDriver driver = null;
 	public  WebDriver Driver_setup(String name) throws IOException {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\chromedriver.exe");
+	  try {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\chromedriver-win64\\chromedriver.exe");
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
+		  System.out.println("Started chrome");
 		  driver = new ChromeDriver();
+		  System.out.println("Finished chrome");
 		}
 		else if(brow.equals("Firefox")) {
 			driver = new FirefoxDriver();
@@ -57,10 +61,15 @@ public class Base {
 		else {
 			System.out.println("Not a valid Browser");
 		}
+		System.out.println("This is the url : "+new Base().Prop().getProperty(name));
 		driver.get(new Base().Prop().getProperty(name));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
-		return driver;
+	  }
+	  catch(Exception e) {
+		  System.out.println("This is the failure message : "+e.getMessage());
+	  }
+	  return driver;
 	}
 	
 	public  Properties Prop() throws IOException {
