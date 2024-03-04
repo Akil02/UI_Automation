@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,51 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase4_PersonalInfo" class="method navigator-link" hash-for-method="PIM_AddEmployee">PIM_AddEmployee</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_ConfirmPassword">Admin_ConfirmPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase4_PersonalInfo" class="method navigator-link" hash-for-method="PersonalDetails">PersonalDetails</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_EmployeeName">Admin_EmployeeName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_Password">Admin_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_Status">Admin_Status</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_SystemUsername">Admin_SystemUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_UserRole">Admin_UserRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="OrangeHRM_SmokeTest.Testcase1_Admin" class="method navigator-link" hash-for-method="Admin_Username">Admin_Username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -123,78 +148,63 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">OrangeHRM_SmokeTest.Testcase4_PersonalInfo</span>
+              <img src="passed.png"/>
+              <span class="class-name">OrangeHRM_SmokeTest.Testcase1_Admin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="PIM_AddEmployee">
-                  </a> <!-- PIM_AddEmployee -->
-                  <span class="method-name">PIM_AddEmployee</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 119.0.6045.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: &apos;LAPTOP-Q98OKOC0&apos;, ip: &apos;192.168.0.106&apos;
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:154)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:107)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:87)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at Common.Base.Driver_setup(Base.java:49)
-	at OrangeHRM_SmokeTest.Testcase4_PersonalInfo.Start(Testcase4_PersonalInfo.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="Admin_ConfirmPassword">
+                  </a> <!-- Admin_ConfirmPassword -->
+                  <span class="method-name">Admin_ConfirmPassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="PersonalDetails">
-                  </a> <!-- PersonalDetails -->
-                  <span class="method-name">PersonalDetails</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 119.0.6045.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: &apos;LAPTOP-Q98OKOC0&apos;, ip: &apos;192.168.0.106&apos;
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:154)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:107)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:87)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at Common.Base.Driver_setup(Base.java:49)
-	at OrangeHRM_SmokeTest.Testcase4_PersonalInfo.Start(Testcase4_PersonalInfo.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="Admin_EmployeeName">
+                  </a> <!-- Admin_EmployeeName -->
+                  <span class="method-name">Admin_EmployeeName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_Password">
+                  </a> <!-- Admin_Password -->
+                  <span class="method-name">Admin_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_Status">
+                  </a> <!-- Admin_Status -->
+                  <span class="method-name">Admin_Status</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_SystemUsername">
+                  </a> <!-- Admin_SystemUsername -->
+                  <span class="method-name">Admin_SystemUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_UserRole">
+                  </a> <!-- Admin_UserRole -->
+                  <span class="method-name">Admin_UserRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_Username">
+                  </a> <!-- Admin_Username -->
+                  <span class="method-name">Admin_Username</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -212,7 +222,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
   &lt;test thread-count=&quot;5&quot; name=&quot;OrangeHrm&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;Orange&quot; value=&quot;Ordhrd&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;OrangeHRM_SmokeTest.Testcase4_PersonalInfo&quot;/&gt;
+      &lt;class name=&quot;OrangeHRM_SmokeTest.Testcase1_Admin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OrangeHrm --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -252,20 +262,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'PIM_AddEmployee')
-data.setCell(0, 2, 'OrangeHRM_SmokeTest.Testcase4_PersonalInfo')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'Admin_ConfirmPassword')
+data.setCell(0, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(0, 3, 7166);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'PersonalDetails')
-data.setCell(1, 2, 'OrangeHRM_SmokeTest.Testcase4_PersonalInfo')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'Admin_EmployeeName')
+data.setCell(1, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(1, 3, 5196);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Admin_UserRole')
+data.setCell(2, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(2, 3, 3368);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Admin_Status')
+data.setCell(3, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(3, 3, 2166);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Admin_Username')
+data.setCell(4, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(4, 3, 2111);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Admin_Password')
+data.setCell(5, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(5, 3, 2101);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Admin_SystemUsername')
+data.setCell(6, 2, 'OrangeHRM_SmokeTest.Testcase1_Admin')
+data.setCell(6, 3, 1441);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -291,13 +321,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">OrangeHRM_SmokeTest.Testcase4_PersonalInfo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">OrangeHRM_SmokeTest.Testcase1_Admin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Start(Ordhrd)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Admin_UserRole</span>
+                <span class="method-start">10833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_EmployeeName</span>
+                <span class="method-start">14204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_Status</span>
+                <span class="method-start">19406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_Username</span>
+                <span class="method-start">21573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_Password</span>
+                <span class="method-start">23684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_ConfirmPassword</span>
+                <span class="method-start">25785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_SystemUsername</span>
+                <span class="method-start">32951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">34392 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

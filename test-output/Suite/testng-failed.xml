@@ -16,8 +16,8 @@
           <include name="Admin_Password"/>
           <include name="End"/>
           <include name="Admin_SystemUsername"/>
-          <include name="Admin_Status"/>
           <include name="Admin_UserRole"/>
+          <include name="Admin_Status"/>
           <include name="Admin_ConfirmPassword"/>
         </methods>
       </class> <!-- OrangeHRM_SmokeTest.Testcase1_Admin -->

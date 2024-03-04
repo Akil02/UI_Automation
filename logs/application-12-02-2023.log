@@ -1,0 +1,88 @@
+2023-12-02 15:01:14.884 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:01:24.359 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:02:33.346 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:02:41.062 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:03:52.678 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:04:00.165 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:04:59.688 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:05:06.458 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:05:59.905 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:06:06.826 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:07:09.111 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:07:16.041 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:10:51.537 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:10:58.054 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:11:48.783 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:11:55.484 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:13:51.435 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:13:57.937 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:15:52.142 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:15:58.752 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:16:00.483 [main] INFO  Common.Listener - Test Method: run passed.
+2023-12-02 15:16:00.510 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:16:34.091 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:16:40.598 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:16:42.844 [main] INFO  Common.Listener - Test Method: run passed.
+2023-12-02 15:16:42.869 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:17:39.658 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:17:46.199 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:17:48.360 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: No node with given id found
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6d66f47433759d17de7cac39cca8bc0, getElementText {id=0EFB50D4C19479B8D24212EADD9AF99A_element_98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59002/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d6d66f47433759d17de7cac39cca8bc0)] -> xpath: //*[contains(@class,'DayTiles__CalendarDaysSpan')]]
+Session ID: d6d66f47433759d17de7cac39cca8bc0
+2023-12-02 15:17:51.781 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:19:53.873 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:20:00.549 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:20:03.062 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dbb25c734da1110729304996373a784, getElementText {id=44F0D8AA5146F7F01801F44D55152EA1_element_98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59304/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7dbb25c734da1110729304996373a784)] -> xpath: //*[contains(@class,'DayTiles__CalendarDaysSpan')]]
+Session ID: 7dbb25c734da1110729304996373a784
+2023-12-02 15:20:03.184 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:24:49.763 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:24:56.977 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:25:01.519 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de01cd704473e1f05a41fdc4421a4f64, getElementText {id=AE23DD644A85494A0F27C8ED94640217_element_98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59715}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59715/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (de01cd704473e1f05a41fdc4421a4f64)] -> xpath: //*[contains(@class,'DayTiles__CalendarDaysSpan')]]
+Session ID: de01cd704473e1f05a41fdc4421a4f64
+2023-12-02 15:25:01.666 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:26:46.922 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:26:53.903 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:26:58.446 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2b7a0182e04d37e71727a87fee46370, getElementText {id=5FA2BA2FC32E97463EFE97A6B41B76DE_element_98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59771/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b2b7a0182e04d37e71727a87fee46370)] -> xpath: //*[contains(@class,'DayTiles__CalendarDaysSpan')]]
+Session ID: b2b7a0182e04d37e71727a87fee46370
+2023-12-02 15:26:58.565 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-02 15:34:00.305 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:34:07.994 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 15:38:10.368 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 15:38:17.596 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 16:02:58.589 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 16:03:05.990 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 16:05:02.469 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-02 16:05:09.127 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-02 16:05:16.569 [main] INFO  Common.Listener - Test Method: run passed.
+2023-12-02 16:05:16.639 [main] INFO  Common.Listener - Test Suite: BusBooking finished.

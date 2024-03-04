@@ -14,6 +14,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -31,6 +33,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -45,11 +48,15 @@ public class Base {
     public WebDriver driver = null;
 	public  WebDriver Driver_setup(String name) throws IOException {
 	  try {
+		Map<String, Object> prefs = new HashMap<String, Object>();
+		prefs.put("profile.default_content_setting_values.notifications", 2);
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("prefs", prefs);
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\chromedriver-win64\\chromedriver.exe");
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
 		  System.out.println("Started chrome");
-		  driver = new ChromeDriver();
+		  driver = new ChromeDriver(options);
 		  System.out.println("Finished chrome");
 		}
 		else if(brow.equals("Firefox")) {

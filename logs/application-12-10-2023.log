@@ -1,0 +1,100 @@
+2023-12-10 09:39:36.837 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 09:39:52.032 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 09:40:19.919 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 09:40:30.515 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 09:45:39.215 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 09:45:47.568 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 09:49:50.839 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 09:49:57.881 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 10:53:12.103 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 10:53:19.763 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 10:57:29.945 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 10:57:36.975 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 10:59:44.088 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 10:59:50.936 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:00:37.846 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = 'AdSHRI AANJANEYA TRAVELS']//parent::div//following-sibling::div[5]//div//div"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04694ed4d75f7ecb3169b68e04421423, findElement {using=xpath, value=//*[text() = 'AdSHRI AANJANEYA TRAVELS']//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54368/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04694ed4d75f7ecb3169b68e04421423
+2023-12-10 11:00:40.559 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 11:10:24.369 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 11:10:31.118 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:11:23.114 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = 'AdSHRI AANJANEYA TRAVELS']//parent::div//following-sibling::div[5]//div//div"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e5885d5402248ca1dabfca184868c5c, findElement {using=xpath, value=//*[text() = 'AdSHRI AANJANEYA TRAVELS']//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e5885d5402248ca1dabfca184868c5c
+2023-12-10 11:11:23.259 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 11:29:33.495 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 11:29:40.192 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:30:19.235 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text() = 'Samantha'S Travels']//parent::div//following-sibling::div[5]//div//div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text() = 'Samantha'S Travels']//parent::div//following-sibling::div[5]//div//div' is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df05e8681cde587e20e38aded5852db8, findElement {using=xpath, value=//*[text() = 'Samantha'S Travels']//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56750/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df05e8681cde587e20e38aded5852db8
+2023-12-10 11:30:19.356 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 11:38:54.946 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 11:39:01.091 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:39:01.133 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36fe7c850f90e1e8e07095fec959f044, findElement {using=xpath, value=//*[text() = 'From']//preceding-sibling::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57696/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 36fe7c850f90e1e8e07095fec959f044
+2023-12-10 11:39:01.355 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 11:43:23.292 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 11:43:30.159 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:44:06.486 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div' is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ccf83439ea09c1e6103a6e7a1832b3, findElement {using=xpath, value=//*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57847/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7ccf83439ea09c1e6103a6e7a1832b3
+2023-12-10 11:44:06.612 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 11:45:45.862 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 11:45:52.612 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 11:46:29.004 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div' is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c10513c5c202beaaeb3376da4a21ae49, findElement {using=xpath, value=//*[text() = Sabari Travels]//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58214/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c10513c5c202beaaeb3376da4a21ae49
+2023-12-10 11:46:29.131 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-10 12:12:33.382 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-10 12:12:41.802 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-10 12:13:37.211 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = "Mayurra travels"]//parent::div//following-sibling::div[5]//div//div"}
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b193d85ab79f0a84a902ba9ec4b992c, findElement {using=xpath, value=//*[text() = "Mayurra travels"]//parent::div//following-sibling::div[5]//div//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59463}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59463/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b193d85ab79f0a84a902ba9ec4b992c
+2023-12-10 12:13:38.881 [main] ERROR Common.Listener - Test Method: run failed and the exception is : io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+2023-12-10 12:13:38.969 [main] INFO  Common.Listener - Test Suite: BusBooking finished.

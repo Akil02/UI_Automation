@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrangeHRM_SmokeTest.Testcase4_PersonalInfo">
+      <class name="BusBooking.Available_Busses">
         <methods>
-          <include name="PersonalDetails"/>
-          <include name="PIM_AddEmployee"/>
-          <include name="End"/>
+          <include name="run"/>
           <include name="Start"/>
         </methods>
-      </class> <!-- OrangeHRM_SmokeTest.Testcase4_PersonalInfo -->
+      </class> <!-- BusBooking.Available_Busses -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
