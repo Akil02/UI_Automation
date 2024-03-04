@@ -1,0 +1,153 @@
+2023-08-16 19:40:04.414 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 19:40:19.626 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 19:40:32.993 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 19:40:32.999 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 19:40:50.917 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 19:40:50.919 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 19:40:52.010 [main] ERROR Common.Listener - Test Method: Image_Add failed and the exception is : org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img alt="profile picture" class="employee-image" src="/web/index.php/pim/viewPhoto/empNumber/123" data-v-0349f171=""> is not clickable at point (414, 52). Other element would receive the click: <div class="oxd-topbar-header-title" data-v-f0c5131f="">...</div>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ef5a74e5ff27c323a8bd91c7dcc0b96e, clickElement {id=A9790A690423DB462F51D060596377C4_element_57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52078/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ef5a74e5ff27c323a8bd91c7dcc0b96e)] -> xpath: //*[@class= 'employee-image']]
+Session ID: ef5a74e5ff27c323a8bd91c7dcc0b96e
+2023-08-16 19:40:56.877 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:18:26.152 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:18:40.510 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:18:55.349 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:18:55.349 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:19:17.738 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 20:19:17.739 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:30:06.985 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:30:29.994 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:30:30.004 [main] WARN  Common.Listener - Test Method: PIM_AddEmployee skipped.
+2023-08-16 20:30:30.004 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:30:30.014 [main] WARN  Common.Listener - Test Method: PersonalDetails skipped.
+2023-08-16 20:30:30.014 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:30:30.014 [main] WARN  Common.Listener - Test Method: Image_Add skipped.
+2023-08-16 20:30:30.054 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:31:38.229 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:31:51.586 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:32:04.720 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:32:04.730 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:32:24.978 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 20:32:24.978 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:33:16.136 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:33:30.088 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:33:43.168 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:33:43.178 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:34:03.333 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 20:34:03.333 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:34:04.477 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 20:34:04.507 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:36:17.221 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:36:25.020 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:36:25.038 [main] WARN  Common.Listener - Test Method: PIM_AddEmployee skipped.
+2023-08-16 20:36:25.049 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:36:25.053 [main] WARN  Common.Listener - Test Method: PersonalDetails skipped.
+2023-08-16 20:36:25.057 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:36:25.061 [main] WARN  Common.Listener - Test Method: Image_Add skipped.
+2023-08-16 20:36:25.124 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:36:47.200 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:36:59.556 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:37:12.657 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:37:12.667 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:37:12.667 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 20:37:12.667 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:37:14.261 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 20:37:14.281 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:46:17.989 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:46:37.656 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:46:51.427 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:46:51.427 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 20:47:00.215 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 20:47:00.215 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 20:47:00.215 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 20:47:00.245 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 20:59:11.557 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 20:59:27.327 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 20:59:40.907 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 20:59:40.927 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:05:08.814 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:05:24.347 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:05:37.864 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 21:05:37.873 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:06:10.829 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 21:06:10.829 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 21:06:10.829 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 21:06:10.859 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 21:31:10.113 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:31:25.738 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:31:39.092 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 21:31:39.102 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:40:17.389 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:40:35.708 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:40:49.215 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 21:40:49.215 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:40:58.031 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 21:40:58.041 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 21:40:58.041 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 21:40:58.071 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 21:44:50.733 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:45:14.413 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:45:27.983 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 21:45:27.992 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:45:38.839 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 21:45:38.841 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 21:45:38.841 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 21:45:38.869 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 21:54:52.361 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:58:21.188 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:58:35.755 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:58:49.065 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 21:58:49.085 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:58:59.046 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 21:58:59.046 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 21:58:59.056 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 21:58:59.076 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 21:59:22.507 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 21:59:35.707 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 21:59:35.748 [main] WARN  Common.Listener - Test Method: PIM_AddEmployee skipped.
+2023-08-16 21:59:35.754 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 21:59:35.756 [main] WARN  Common.Listener - Test Method: Image_Add skipped.
+2023-08-16 21:59:35.760 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 21:59:35.766 [main] WARN  Common.Listener - Test Method: PersonalDetails skipped.
+2023-08-16 21:59:35.935 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 22:06:41.296 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 22:06:55.801 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 22:07:09.194 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 22:07:09.203 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 22:07:17.953 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 22:07:17.953 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 22:07:17.953 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 22:07:17.993 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 22:08:16.873 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 22:08:34.222 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 22:08:47.671 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 22:08:47.677 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 22:08:47.678 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 22:08:47.703 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 22:09:44.775 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 22:09:57.735 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 22:10:10.989 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 22:10:10.998 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 22:10:10.998 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2023-08-16 22:10:11.022 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2023-08-16 22:11:07.918 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-08-16 22:11:20.904 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2023-08-16 22:11:34.293 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2023-08-16 22:11:34.303 [main] INFO  Common.Listener - Test Method: Image_Add started.
+2023-08-16 22:11:42.952 [main] INFO  Common.Listener - Test Method: Image_Add passed.
+2023-08-16 22:11:42.952 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2023-08-16 22:11:57.985 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()= 'Other Id']//following::div[1]//input"}
+  (Session info: chrome=115.0.5790.173)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcb205133fb6ba455c4ad1b12e93772a, findElement {using=xpath, value=//*[text()= 'Other Id']//following::div[1]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 115.0.5790.173, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcb205133fb6ba455c4ad1b12e93772a
+2023-08-16 22:12:03.306 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.

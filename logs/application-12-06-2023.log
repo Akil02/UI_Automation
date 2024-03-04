@@ -1,0 +1,77 @@
+2023-12-06 21:48:10.669 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 21:48:27.997 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 21:48:50.004 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.199)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d208e94f571d743129a7a5c8900c8565, findElement {using=xpath, value=//*[@class = 'icon icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d208e94f571d743129a7a5c8900c8565
+2023-12-06 21:48:52.510 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 21:49:11.731 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 21:49:18.561 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 21:49:55.618 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'icon icon-close']"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ae46dd9c3d68bdf642590f5100fc99e, findElement {using=xpath, value=//*[@class = 'icon icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53043/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ae46dd9c3d68bdf642590f5100fc99e
+2023-12-06 21:49:55.768 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 21:50:39.141 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 21:50:46.206 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 21:51:08.415 [main] ERROR Common.Listener - Test Method: run failed and the exception is : java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2023-12-06 21:51:08.665 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 21:52:57.360 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 21:53:04.490 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 21:53:26.927 [main] ERROR Common.Listener - Test Method: run failed and the exception is : java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2023-12-06 21:53:27.128 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 21:55:54.485 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 21:56:01.834 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 21:57:48.993 [main] ERROR Common.Listener - Test Method: run failed and the exception is : java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2023-12-06 21:57:50.038 [main] ERROR Common.Listener - Test Method: run failed and the exception is : io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+2023-12-06 21:57:50.113 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 22:03:34.100 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 22:03:41.190 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 22:10:45.885 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 22:10:52.952 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 22:11:35.186 [main] ERROR Common.Listener - Test Method: run failed and the exception is : java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2023-12-06 22:11:35.306 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 22:56:56.552 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 22:57:04.388 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 22:57:26.570 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'icon icon-close']"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a56183ad5c5d41480b876a97449c956f, findElement {using=xpath, value=//*[@class = 'icon icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55949/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a56183ad5c5d41480b876a97449c956f
+2023-12-06 22:57:27.118 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 22:58:42.488 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 22:58:49.865 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 22:59:14.065 [main] ERROR Common.Listener - Test Method: run failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'icon icon-close']"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0c28c90c09095bf064ecbbbeccef83e, findElement {using=xpath, value=//*[@class = 'icon icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56175/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0c28c90c09095bf064ecbbbeccef83e
+2023-12-06 22:59:14.283 [main] INFO  Common.Listener - Test Suite: BusBooking finished.
+2023-12-06 23:00:35.038 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 23:00:42.471 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 23:02:19.496 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 23:02:26.698 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 23:04:58.133 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 23:05:05.186 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 23:09:41.507 [main] INFO  Common.Listener - Test Suite: BusBooking started.
+2023-12-06 23:09:48.688 [main] INFO  Common.Listener - Test Method: run started.
+2023-12-06 23:10:19.953 [main] ERROR Common.Listener - Test Method: run failed and the exception is : java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2023-12-06 23:10:20.073 [main] INFO  Common.Listener - Test Suite: BusBooking finished.

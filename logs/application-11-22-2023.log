@@ -1,0 +1,16 @@
+2023-11-22 08:28:59.309 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2023-11-22 08:29:16.034 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2023-11-22 08:29:19.404 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2023-11-22 08:29:19.404 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2023-11-22 08:29:24.600 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2023-11-22 08:29:24.606 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2023-11-22 08:29:26.773 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2023-11-22 08:29:26.773 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2023-11-22 08:29:28.884 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2023-11-22 08:29:28.884 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2023-11-22 08:29:30.985 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2023-11-22 08:29:30.990 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2023-11-22 08:29:38.151 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2023-11-22 08:29:38.151 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2023-11-22 08:29:39.592 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2023-11-22 08:29:39.675 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
