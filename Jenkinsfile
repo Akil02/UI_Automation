@@ -11,7 +11,9 @@ pipeline {
         }
       stage('Compile') {
             when{
-                ${name} == false
+                expression {
+                   ${name} == false
+                }
             }
             steps {
                 echo 'This is compiling'
