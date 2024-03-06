@@ -1,21 +1,31 @@
 pipeline {
     agent any
-
+    environment{
+        name = true
+    }
     stages {
         stage('Adding') {
             steps {
-                echo 'Hello World'
+                echo 'This is starting'
             }
         }
       stage('Compile') {
+            when{
+                ${name} == false
+            }
             steps {
-                echo 'Hello World'
+                echo 'This is compiling'
             }
         }
       stage('Run') {
             steps {
-                echo 'Hello World'
+                echo 'This is running'
             }
         }
+    }
+    post{
+       always{
+           echo 'This is completed'
+       }
     }
 }
