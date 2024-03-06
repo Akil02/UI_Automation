@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment{
-        name = true
+        name = 'Man'
     }
     parameters {
-        string(name: 'Greeting', defaultValue: '', description: 'Done the changes')
+        string(name: 'Greeting', defaultValue: '', description: 'Enter the value')
     }
     stages {
         stage('Adding') {
@@ -15,7 +15,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   "$name" == true
+                   "$name" == 'Man'
                 }
             }
             steps {
