@@ -15,7 +15,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   "$name" == true && "${params.Greeting}" == "Start"
+                   "$name" == true && params.Greeting == 'Start'
                 }
             }
             steps {
