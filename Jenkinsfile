@@ -12,7 +12,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   $name == false
+                   "$name" == false
                 }
             }
             steps {
