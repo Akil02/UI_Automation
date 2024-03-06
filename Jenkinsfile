@@ -24,7 +24,7 @@ pipeline {
         }
       stage('Run') {
             steps {
-                echo 'This is checking parameter ${params.Greeting}'
+                echo 'This is checking parameter ${Greeting}'
             }
         }
     }
