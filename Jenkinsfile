@@ -3,6 +3,9 @@ pipeline {
     environment{
         name = true
     }
+    parameters {
+        string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
+    }
     stages {
         stage('Adding') {
             steps {
@@ -12,7 +15,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   "$name" == false
+                   "$name" == true && "${params.Greeting}" == 'Hello'
                 }
             }
             steps {
