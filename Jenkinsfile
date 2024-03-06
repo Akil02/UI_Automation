@@ -15,7 +15,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   "$name" == true && params.Greeting == 'Start'
+                   "$name" == true
                 }
             }
             steps {
@@ -24,7 +24,7 @@ pipeline {
         }
       stage('Run') {
             steps {
-                echo 'This is running'
+                echo 'This is checking parameter $params.Greeting'
             }
         }
     }
