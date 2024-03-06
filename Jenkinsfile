@@ -4,7 +4,7 @@ pipeline {
         name = true
     }
     parameters {
-        string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
+        string(name: 'Greeting', defaultValue: '', description: 'How should I greet the world?')
     }
     stages {
         stage('Adding') {
@@ -15,7 +15,7 @@ pipeline {
       stage('Compile') {
             when{
                 expression {
-                   "$name" == true && "$params.Greeting" == "Hello"
+                   "$name" == true && "${params.Greeting}" == "Start"
                 }
             }
             steps {
