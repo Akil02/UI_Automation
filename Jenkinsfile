@@ -4,7 +4,7 @@ pipeline {
         name = true
     }
     parameters {
-        string(name: 'Greeting', defaultValue: '', description: 'Done the changes one more time')
+        string(name: 'Greeting', defaultValue: '', description: 'Done the changes')
     }
     stages {
         stage('Adding') {
@@ -24,7 +24,7 @@ pipeline {
         }
       stage('Run') {
             steps {
-                echo 'This is checking parameter ${Greeting}'
+                echo "This is checking parameter ${params.Greeting}"
             }
         }
     }
