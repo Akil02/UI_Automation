@@ -4,7 +4,7 @@ pipeline {
         name = true
     }
     parameters {
-        booleanParam(name: 'Greeting', defaultValue: true, description: 'How should I greet the world?')
+        booleanParam(name: 'Greeting', defaultValue: true, description: 'How should I greet the boolean?')
     }
     stages {
         stage('Adding') {
