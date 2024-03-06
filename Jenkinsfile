@@ -4,7 +4,7 @@ pipeline {
         name = true
     }
     parameters {
-        string(name: 'Greeting', defaultValue: '', description: 'How should I greet the world?')
+        string(name: 'Greeting', defaultValue: '', description: 'Done the changes')
     }
     stages {
         stage('Adding') {
