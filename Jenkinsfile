@@ -4,7 +4,7 @@ pipeline {
         name = true
     }
     parameters {
-        string(name: 'Greeting', defaultValue: '', description: 'Done the changes check once')
+        string(name: 'Greeting', defaultValue: '', description: 'Done the changes')
     }
     stages {
         stage('Adding') {
@@ -25,7 +25,7 @@ pipeline {
       stage('Run') {
             when{
                 expression {
-                   "${params.Greeting}" == Akil
+                   "${params.Greeting}" == 'Akil'
                 }
             }
             steps {
