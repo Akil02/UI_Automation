@@ -36,7 +36,7 @@ pipeline {
             }
             steps {
                 echo "This is checking parameter ${params.Greeting}"
-                sh 'mvn clean test'
+                bat 'mvn clean test'
             }
         }
     }
