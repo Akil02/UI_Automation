@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+        maven 'Maven 3.8.4'
+        jdk 'jdk11'
+    }
     environment{
         name = 'Man'
     }
@@ -7,8 +11,12 @@ pipeline {
         string(name: 'Greeting', defaultValue: '', description: 'Enter the value')
     }
     stages {
-        stage('Adding') {
+        stage ('Initialize') {
             steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
                 echo 'This is starting'
             }
         }
@@ -30,6 +38,7 @@ pipeline {
             }
             steps {
                 echo "This is checking parameter ${params.Greeting}"
+                sh 'mvn clean test'
             }
         }
     }
