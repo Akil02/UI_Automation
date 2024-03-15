@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven "MAVEN"
-        jdk "JDK"
+        maven 'Maven'
+        jdk 'jdk-11.0.20'
     }
     environment{
         name = 'Man'
