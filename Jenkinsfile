@@ -15,7 +15,6 @@ pipeline {
             steps {
                 echo "PATH = ${M2_HOME}/bin:${PATH}"
                 echo "M2_HOME = /opt/maven"
-                git branch: 'master', url: "https://github.com/Akil02/UI_Automation"
                 echo 'This is starting'
             }
         }
