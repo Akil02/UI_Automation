@@ -1,5 +1,4 @@
 pipeline {
-    agent any
     tools {
         maven 'Maven'
         jdk 'jdk-11.0.20'
