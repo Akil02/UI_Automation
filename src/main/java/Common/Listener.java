@@ -45,7 +45,7 @@ public class Listener implements ITestListener{
 	public void onStart(ITestContext context) {	
 		logger.info("Test Suite: " + context.getName() + " started.");
 		System.out.println("onStart method started");
-		String path = "C:\\Users\\A AKIL GANESH\\Eclipse java\\Automation_project\\src\\main\\java\\Images\\Report.html";
+		String path = System.getProperty("user.dir")+"\\src\\main\\java\\Images\\Report.html";
 		reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("WebApllication");
 		reporter.config().setDocumentTitle("Test result");

@@ -119,7 +119,19 @@ public class Personal_Details {
 			}
 		}  
 		List<WebElement> but = driver.findElements(button);
-		but.get(0).click();
+		int attempts = 0;
+
+        while (attempts < 3) {
+            try {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+                wait.until(ExpectedConditions.elementToBeClickable(but.get(0)));
+                but.get(0).click();
+                break; // Button is clickable
+            } catch (Exception e) {
+                System.out.println("Attempt " + (attempts + 1) + ": Button not clickable yet. Waiting...");
+            }
+            attempts++;
+        }
 		driver.findElement(input_bloodtype).click();
 		List<WebElement> blood = driver.findElements(bloodtype);
 		Thread.sleep(1000);
@@ -133,9 +145,21 @@ public class Personal_Details {
 		Thread.sleep(2000);
 		driver.findElement(addfilebutton).click();
 		Thread.sleep(1000);
-		driver.findElement(atttachfile).sendKeys("C:\\Users\\A AKIL GANESH\\Downloads\\nextdayupdate.txt");
+		driver.findElement(atttachfile).sendKeys(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\DummyFile.txt");
 		Thread.sleep(2000);
-		but.get(1).click();
+		attempts = 0;
+
+        while (attempts < 3) {
+            try {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+                wait.until(ExpectedConditions.elementToBeClickable(but.get(1)));
+                but.get(1).click();
+                break; // Button is clickable
+            } catch (Exception e) {
+                System.out.println("Attempt " + (attempts + 1) + ": Button not clickable yet. Waiting...");
+            }
+            attempts++;
+        }
 		Thread.sleep(2000);
 	}
 	

@@ -2,7 +2,6 @@ package pageobject;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
@@ -35,7 +34,7 @@ public class RecruitmentPage {
        statement.close();
        connection.close();
    }  */
-   public void HiredList() throws SQLException, InterruptedException {
+   public void HiredList() throws Exception {
 	   connection = new Base().Database_Statement(connection, statement);
 	   statement = new Base().DBstatement(connection, statement);
        Thread.sleep(1000);
@@ -66,7 +65,7 @@ public class RecruitmentPage {
 	   }
    }
    
-   public void RejectedList() throws SQLException {
+   public void RejectedList() throws Exception {
 	   connection = new Base().Database_Statement(connection, statement);
 	   statement = new Base().DBstatement(connection, statement);
 	   boolean cond = false;

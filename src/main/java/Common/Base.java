@@ -86,10 +86,17 @@ public class Base {
 		return props;
 	}
 	
-	public Connection Database_Statement(Connection connection,Statement statement) {
-		String url = "jdbc:oracle:thin:@localhost:1522:XE"; 
-        String username = "system";
-        String password = "Admin";
+	public Properties db_Prop() throws IOException {
+		FileReader reader=new FileReader(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\db_config.properties");
+        Properties props=new Properties();
+        props.load(reader);
+		return props;
+	}
+	
+	public Connection Database_Statement(Connection connection,Statement statement) throws Exception {
+		String url = db_Prop().getProperty("db.url");
+        String username = db_Prop().getProperty("db.username");
+        String password = db_Prop().getProperty("db.password");
         try {
         	Class.forName("oracle.jdbc.driver.OracleDriver");
 
@@ -202,5 +209,4 @@ public class Base {
 		Response r = RestAssured.given().header("Cookie",a1).contentType(ContentType.JSON).body(n1).when().post(h);
 		System.out.println("Craeting command : "+r.getStatusCode());
 	}
-	
 }

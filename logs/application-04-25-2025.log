@@ -1,0 +1,32 @@
+2025-04-25 10:37:23.862 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-04-25 10:37:41.206 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-04-25 10:38:00.080 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2025-04-25 10:38:00.425 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-04-25 10:40:46.526 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-04-25 10:41:01.410 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2025-04-25 10:41:14.901 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2025-04-25 10:41:14.917 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2025-04-25 10:41:31.465 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\A AKIL GANESH\Downloads\nextdayupdate.txt
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ee5f3707d727b7d86ac7ce8e91c883d, sendKeysToElement {id=f.9A13B6DB06DB4B3D2ECF8960B6F47EBE.d.4CCB2A44A6F26133DC899AB64F006E3E.e.530, value=[Ljava.lang.CharSequence;@1c5fd813}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55169/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ee5f3707d727b7d86ac7ce8e91c883d)] -> xpath: //*[@type = 'file']]
+Session ID: 2ee5f3707d727b7d86ac7ce8e91c883d
+2025-04-25 10:41:40.791 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-04-25 10:48:44.463 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-04-25 10:48:59.825 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2025-04-25 10:49:13.214 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2025-04-25 10:49:13.221 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2025-04-25 10:49:29.715 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\A AKIL GANESH\Downloads\nextdayupdate.txt
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ef41659ba6c77cd75591756acb0389d, sendKeysToElement {id=f.338D4823ABE80814C189587192D99BC5.d.687CE72C24E21AD379CBA04F76285637.e.530, value=[Ljava.lang.CharSequence;@49338f3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55257/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1ef41659ba6c77cd75591756acb0389d)] -> xpath: //*[@type = 'file']]
+Session ID: 1ef41659ba6c77cd75591756acb0389d
+2025-04-25 10:49:30.075 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
