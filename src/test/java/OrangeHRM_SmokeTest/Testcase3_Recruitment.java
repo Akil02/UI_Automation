@@ -34,7 +34,7 @@ public class Testcase3_Recruitment {
 	 }
 	 
 	 @Test
-	 public void Recruitment_RejectionList1() throws SQLException {
+	 public void Recruitment_RejectionList1() throws Exception {
 		 new RecruitmentPage(driver).RejectedList();
 	 }
 	 
