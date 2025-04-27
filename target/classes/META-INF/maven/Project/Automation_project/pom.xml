@@ -85,13 +85,6 @@
     <artifactId>rest-assured</artifactId>
     <version>5.3.0</version>
 </dependency>
-
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.32</version> <!-- Use latest -->
-    <scope>provided</scope>
-</dependency>
 </dependencies>
 
 <build>
