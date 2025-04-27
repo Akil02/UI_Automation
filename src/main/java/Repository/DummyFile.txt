@@ -1,1 +1,124 @@
-Sample text
+Okay, got it.
+You are trying correctly — your code is perfect for opening Settings app.
+
+Now important point:
+If even this is not working, it clearly means the issue is NOT with APK, not capabilities —
+it is with basic Appium-Emulator communication setup.
+
+✅ Now let's check one by one carefully:
+
+1. Is your Emulator Running and Device Detected?
+👉 In Command Prompt, type:
+
+bash
+Copy
+Edit
+adb devices
+You should see something like:
+
+arduino
+Copy
+Edit
+List of devices attached
+emulator-5554    device
+If you see device, it means emulator is detected properly.
+
+If it shows offline or no device, Appium cannot talk to emulator — this must be fixed first.
+
+2. Is Appium Server running and waiting?
+Open Appium server.
+
+It should say:
+
+kotlin
+Copy
+Edit
+Appium REST http interface listener started on http://0.0.0.0:4723
+and not stopped, still waiting.
+
+When you run your Java code, Appium should print some logs — like it is receiving the request.
+
+Are any new logs printed in Appium console when you run the code? (if nothing happens there, means client can't connect server)
+
+3. Is UIAutomator2 Driver installed in Appium?
+In your Appium server startup log you must see:
+
+lua
+Copy
+Edit
+AndroidUiautomator2Driver has been successfully loaded
+You already shared earlier it was loaded. ✅
+
+4. Java Client and Server Version Matching?
+What is your Java Appium Client version?
+
+👉 You can find in your Maven pom.xml:
+
+xml
+Copy
+Edit
+<dependency>
+  <groupId>io.appium</groupId>
+  <artifactId>java-client</artifactId>
+  <version>8.5.1</version> <!-- check this -->
+</dependency>
+It should be 8.5.1 or latest (for Appium 2.x).
+
+If too old, update it.
+
+5. Network Issue
+In your code, you connect to:
+
+java
+Copy
+Edit
+new URL("http://127.0.0.1:4723/wd/hub")
+✅ 127.0.0.1 means your own computer.
+If firewall or antivirus blocks connection, Appium client won't reach server. (rare, but possible)
+
+🔥 Important:
+When you run the code, and exception comes, you must check:
+
+Exception message: System.out.println(e.getMessage());
+
+Root cause: e.getCause().printStackTrace();
+
+Otherwise, we are blind.
+
+Example Expected Errors:
+
+Session Not Created Exception
+
+Could not find device
+
+Could not start app
+
+Server not reachable
+
+But if you don't print e.getCause(), you can't see these.
+
+🛠 Action Plan for You Now:
+Open Command Prompt and run adb devices
+
+Tell me the output.
+
+In your code, print cause:
+
+java
+Copy
+Edit
+catch (Exception e) {
+    System.out.println("Error while initializing driver: " + e.getMessage());
+    if (e.getCause() != null) {
+        System.out.println("Root Cause: " + e.getCause().getMessage());
+        e.getCause().printStackTrace();
+    }
+    throw new RuntimeException("Failed to initialize AndroidDriver", e);
+}
+Copy the full error and send it to me here.
+
+👉 You are almost there Akil!
+The problem is now technical and small — just hidden because real error not showing.
+
+Send me these two things, I'll tell you exact fix. 🚀
+(Ready when you are.)
