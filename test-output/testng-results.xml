@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-26T18:18:00 IST" name="Suite" finished-at="2025-04-26T18:18:25 IST" duration-ms="25012">
+  <suite started-at="2025-04-27T22:21:36 IST" name="Suite" finished-at="2025-04-27T22:22:03 IST" duration-ms="26628">
     <groups>
     </groups>
-    <test started-at="2025-04-26T18:18:00 IST" name="OrangeHrm" finished-at="2025-04-26T18:18:25 IST" duration-ms="25012">
+    <test started-at="2025-04-27T22:21:36 IST" name="OrangeHrm" finished-at="2025-04-27T22:22:03 IST" duration-ms="26628">
       <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance">
-        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-26T18:18:03 IST" name="Start" finished-at="2025-04-26T18:18:10 IST" duration-ms="6873" status="PASS">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-27T22:21:40 IST" name="Start" finished-at="2025-04-27T22:21:49 IST" duration-ms="9417" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method signature="AccessRecords()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-26T18:18:10 IST" name="AccessRecords" finished-at="2025-04-26T18:18:25 IST" duration-ms="15087" status="PASS">
+        <test-method signature="AccessRecords()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-27T22:21:49 IST" name="AccessRecords" finished-at="2025-04-27T22:22:03 IST" duration-ms="13467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccessRecords -->
-        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-26T18:18:25 IST" name="End" finished-at="2025-04-26T18:18:25 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@fd0e5b6]" started-at="2025-04-27T22:22:03 IST" name="End" finished-at="2025-04-27T22:22:03 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
