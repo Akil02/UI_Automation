@@ -56,14 +56,14 @@ public class Listener implements ITestListener{
 		sheet = workbook.getSheetAt(2);
 		row = sheet.getRow(rownum);
 		try {
-			r = new Base().KeyCreation();
-			key = new Base().GetFromKey(r,"value");
+/*			r = new Base().KeyCreation();
+			key = new Base().GetFromKey(r,"value");  */
 			cel = row.createCell(0);
 			cel.setCellValue("Key");
 			cel = row.createCell(1);
 			cel.setCellValue(key);
 			new Base().WrightExcel(workbook);
-			n = new Base().GetFromKey(r,"name");
+	//		n = new Base().GetFromKey(r,"name");
 			System.out.println(n+"   : "+key);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -95,7 +95,7 @@ public class Listener implements ITestListener{
 		test.info(result.getName());
 		test.fail("Failed in"+result.getName()+" method");
 		test.warning(result.getThrowable());
-		val = new Base().CreateIssue("OR", n, key, result.getName(), err);
+	//	val = new Base().CreateIssue("OR", n, key, result.getName(), err);
 		Row row = sheet.createRow(rownum);
 		row = sheet.getRow(rownum);
 		cel = row.createCell(0);
@@ -107,7 +107,7 @@ public class Listener implements ITestListener{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		new Base().Create_Command(val, n, key,err);
+//		new Base().Create_Command(val, n, key,err);
     }
 
 	public void onTestSkipped(ITestResult result) {

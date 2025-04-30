@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T21:28:50 IST" name="Suite" finished-at="2025-04-27T21:29:15 IST" duration-ms="25391">
+  <suite started-at="2025-04-28T10:22:03 IST" name="Suite" finished-at="2025-04-28T10:24:22 IST" duration-ms="139464">
     <groups>
     </groups>
-    <test started-at="2025-04-27T21:28:50 IST" name="OrangeHrm" finished-at="2025-04-27T21:29:15 IST" duration-ms="25391">
-      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance">
-        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@2a1edad4]" started-at="2025-04-27T21:28:53 IST" name="Start" finished-at="2025-04-27T21:29:00 IST" duration-ms="7045" status="PASS">
+    <test started-at="2025-04-28T10:22:03 IST" name="OrangeHrm" finished-at="2025-04-28T10:24:22 IST" duration-ms="139464">
+      <class name="OrangeHRM_SmokeTest.Testcase2_Leave">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase2_Leave@625e134e]" started-at="2025-04-28T10:22:36 IST" name="Start" finished-at="2025-04-28T10:22:43 IST" duration-ms="6482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,131 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method signature="AccessRecords()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@2a1edad4]" started-at="2025-04-27T21:29:00 IST" name="AccessRecords" finished-at="2025-04-27T21:29:15 IST" duration-ms="14791" status="PASS">
+        <test-method signature="Leave_Accept()[pri:0, instance:OrangeHRM_SmokeTest.Testcase2_Leave@625e134e]" started-at="2025-04-28T10:22:43 IST" name="Leave_Accept" finished-at="2025-04-28T10:23:02 IST" duration-ms="18886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Leave_Accept -->
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase2_Leave@625e134e]" started-at="2025-04-28T10:23:02 IST" name="End" finished-at="2025-04-28T10:23:02 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- OrangeHRM_SmokeTest.Testcase2_Leave -->
+      <class name="OrangeHRM_SmokeTest.Testcase4_PersonalInfo">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase4_PersonalInfo@89c10b7]" started-at="2025-04-28T10:23:18 IST" name="Start" finished-at="2025-04-28T10:23:27 IST" duration-ms="9710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ordhrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="PIM_AddEmployee()[pri:1, instance:OrangeHRM_SmokeTest.Testcase4_PersonalInfo@89c10b7]" started-at="2025-04-28T10:23:27 IST" name="PIM_AddEmployee" finished-at="2025-04-28T10:23:41 IST" duration-ms="13196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIM_AddEmployee -->
+        <test-method signature="PersonalDetails()[pri:2, instance:OrangeHRM_SmokeTest.Testcase4_PersonalInfo@89c10b7]" started-at="2025-04-28T10:23:41 IST" name="PersonalDetails" finished-at="2025-04-28T10:24:01 IST" duration-ms="20379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalDetails -->
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase4_PersonalInfo@89c10b7]" started-at="2025-04-28T10:24:01 IST" name="End" finished-at="2025-04-28T10:24:01 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- OrangeHRM_SmokeTest.Testcase4_PersonalInfo -->
+      <class name="OrangeHRM_SmokeTest.Testcase3_Recruitment">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase3_Recruitment@72bd06ca]" started-at="2025-04-28T10:23:02 IST" name="Start" finished-at="2025-04-28T10:23:08 IST" duration-ms="6497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ordhrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="Recruitment_HiredList()[pri:0, instance:OrangeHRM_SmokeTest.Testcase3_Recruitment@72bd06ca]" started-at="2025-04-28T10:23:08 IST" name="Recruitment_HiredList" finished-at="2025-04-28T10:23:14 IST" duration-ms="5852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recruitment_HiredList -->
+        <test-method signature="Recruitment_RejectionList1()[pri:0, instance:OrangeHRM_SmokeTest.Testcase3_Recruitment@72bd06ca]" started-at="2025-04-28T10:23:14 IST" name="Recruitment_RejectionList1" finished-at="2025-04-28T10:23:15 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recruitment_RejectionList1 -->
+        <test-method signature="Recruitment_Rejected1()[pri:0, instance:OrangeHRM_SmokeTest.Testcase3_Recruitment@72bd06ca]" started-at="2025-04-28T10:23:15 IST" name="Recruitment_Rejected1" finished-at="2025-04-28T10:23:18 IST" depends-on-methods="OrangeHRM_SmokeTest.Testcase3_Recruitment.Recruitment_RejectionList1" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recruitment_Rejected1 -->
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase3_Recruitment@72bd06ca]" started-at="2025-04-28T10:23:18 IST" name="End" finished-at="2025-04-28T10:23:18 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- OrangeHRM_SmokeTest.Testcase3_Recruitment -->
+      <class name="OrangeHRM_SmokeTest.Testcase1_Admin">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:04 IST" name="Start" finished-at="2025-04-28T10:22:13 IST" duration-ms="9117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ordhrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="Admin_UserRole()[pri:1, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:13 IST" name="Admin_UserRole" finished-at="2025-04-28T10:22:16 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_UserRole -->
+        <test-method signature="Admin_EmployeeName()[pri:2, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:16 IST" name="Admin_EmployeeName" finished-at="2025-04-28T10:22:22 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_EmployeeName -->
+        <test-method signature="Admin_Status()[pri:3, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:22 IST" name="Admin_Status" finished-at="2025-04-28T10:22:24 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Status -->
+        <test-method signature="Admin_Username()[pri:4, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:24 IST" name="Admin_Username" finished-at="2025-04-28T10:22:26 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Username -->
+        <test-method signature="Admin_Password()[pri:5, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:26 IST" name="Admin_Password" finished-at="2025-04-28T10:22:28 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Password -->
+        <test-method signature="Admin_ConfirmPassword()[pri:6, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:28 IST" name="Admin_ConfirmPassword" finished-at="2025-04-28T10:22:35 IST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_ConfirmPassword -->
+        <test-method signature="Admin_SystemUsername()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:35 IST" name="Admin_SystemUsername" finished-at="2025-04-28T10:22:36 IST" depends-on-methods="OrangeHRM_SmokeTest.Testcase1_Admin.Admin_ConfirmPassword" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_SystemUsername -->
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase1_Admin@5241cf67]" started-at="2025-04-28T10:22:36 IST" name="End" finished-at="2025-04-28T10:22:36 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- OrangeHRM_SmokeTest.Testcase1_Admin -->
+      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance">
+        <test-method is-config="true" signature="Start(java.lang.String)[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@5dbe30be]" started-at="2025-04-28T10:24:01 IST" name="Start" finished-at="2025-04-28T10:24:08 IST" duration-ms="6518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ordhrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="AccessRecords()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@5dbe30be]" started-at="2025-04-28T10:24:08 IST" name="AccessRecords" finished-at="2025-04-28T10:24:22 IST" duration-ms="14728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccessRecords -->
-        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@2a1edad4]" started-at="2025-04-27T21:29:15 IST" name="End" finished-at="2025-04-27T21:29:15 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="End()[pri:0, instance:OrangeHRM_SmokeTest.Testcase5_Maintenance@5dbe30be]" started-at="2025-04-28T10:24:22 IST" name="End" finished-at="2025-04-28T10:24:22 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
