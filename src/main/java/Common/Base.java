@@ -8,6 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.Connection;
@@ -66,7 +67,8 @@ public class Base {
 		    chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-linux64", "chromedriver").toString();
 		}
 		System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-		Path userDataDir = Paths.get(System.getProperty("user.dir"), "chromeUserData" + System.currentTimeMillis());
+		Path userDataDir = Files.createTempDirectory("chromeProfile_");
+		options.addArguments("user-data-dir=" + userDataDir.toString());
 		options.addArguments("user-data-dir=" + userDataDir.toString());
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
