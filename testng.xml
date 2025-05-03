@@ -12,7 +12,7 @@
       <class name="OrangeHRM_SmokeTest.Testcase2_Leave"/>    
       <class name="OrangeHRM_SmokeTest.Testcase3_Recruitment"/> 
       <class name="OrangeHRM_SmokeTest.Testcase4_PersonalInfo"/>    
-      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance"/>  
+      <class name="OrangeHRM_SmokeTest.Testcase5_Maintenance"/>    
     </classes>
   </test>   
   

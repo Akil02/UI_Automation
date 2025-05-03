@@ -1,0 +1,48 @@
+2025-05-01 17:05:51.507 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:06:03.469 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-05-01 17:06:11.150 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
+2025-05-01 17:06:11.160 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-05-01 17:06:12.928 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-05-01 17:06:12.928 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-05-01 17:06:32.364 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
+2025-05-01 17:06:32.727 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-01 17:06:47.861 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:06:55.838 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-05-01 17:07:03.664 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
+2025-05-01 17:07:03.664 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-05-01 17:07:04.684 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-05-01 17:07:04.684 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-05-01 17:07:07.184 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
+2025-05-01 17:07:07.374 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-01 17:07:52.809 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:08:05.468 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-05-01 17:08:13.860 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
+2025-05-01 17:08:13.860 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-05-01 17:08:16.110 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-05-01 17:08:16.120 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-05-01 17:08:22.160 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
+2025-05-01 17:08:23.170 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-01 17:10:38.085 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:10:47.691 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-05-01 17:11:09.368 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2025-05-01 17:11:09.728 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-01 17:13:17.538 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:13:26.227 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-05-01 17:13:38.634 [main] ERROR Common.Listener - Test Method: Leave_Accept failed and the exception is : org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@class = 'oxd-sidepanel-body']//ul//li[3]//a//span[text() = 'Leave']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+2025-05-01 17:13:38.814 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-01 17:13:50.979 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-01 17:13:58.956 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-05-01 17:14:10.846 [main] ERROR Common.Listener - Test Method: Leave_Accept failed and the exception is : org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af14e6e9911b362e4ec22c4747bc9f78, findElement {using=xpath, value=//*[@class = 'oxd-sidepanel-body']//ul//li[3]//a//span[text() = 'Leave']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50128/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af14e6e9911b362e4ec22c4747bc9f78
+2025-05-01 17:14:11.016 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.

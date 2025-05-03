@@ -1,142 +1,60 @@
-2025-04-28 09:31:37.623 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
-2025-04-28 09:31:54.213 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
-2025-04-28 09:31:58.166 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
-2025-04-28 09:31:58.176 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
-2025-04-28 09:32:03.345 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
-2025-04-28 09:32:03.345 [main] INFO  Common.Listener - Test Method: Admin_Status started.
-2025-04-28 09:32:05.531 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
-2025-04-28 09:32:05.531 [main] INFO  Common.Listener - Test Method: Admin_Username started.
-2025-04-28 09:32:07.636 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
-2025-04-28 09:32:07.636 [main] INFO  Common.Listener - Test Method: Admin_Password started.
-2025-04-28 09:32:09.736 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
-2025-04-28 09:32:09.736 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
-2025-04-28 09:32:16.904 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
-2025-04-28 09:32:16.904 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
-2025-04-28 09:32:18.111 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
-2025-04-28 09:32:26.294 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
-2025-04-28 09:32:44.089 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
-2025-04-28 09:32:50.965 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
-2025-04-28 09:32:57.928 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
-2025-04-28 09:32:57.930 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
-2025-04-28 09:32:59.524 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
-2025-04-28 09:32:59.526 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
-2025-04-28 09:34:00.978 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
-2025-04-28 09:34:12.592 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
-2025-04-28 09:34:25.995 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
-2025-04-28 09:34:25.995 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
-2025-04-28 09:34:42.606 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Selenium Automation Project\UI_Automation\src\main\java\Repository\DummyFile.txt
-  (Session info: chrome=135.0.7049.115)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [26f081450f09831b08a0b7e24c617719, sendKeysToElement {id=f.8D3D6AE7893998D4BA3C47CCAFD219CB.d.431C7080A3936B9E0029E7E8E4D3A713.e.523, value=[Ljava.lang.CharSequence;@1e86b2d1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50432/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (26f081450f09831b08a0b7e24c617719)] -> xpath: //*[@type = 'file']]
-Session ID: 26f081450f09831b08a0b7e24c617719
-2025-04-28 09:34:42.896 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-2025-04-28 09:34:43.522 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
-2025-04-28 09:38:52.775 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
-2025-04-28 09:39:05.464 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
-2025-04-28 09:39:08.572 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
-2025-04-28 09:39:08.577 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
-2025-04-28 09:39:13.741 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
-2025-04-28 09:39:13.741 [main] INFO  Common.Listener - Test Method: Admin_Status started.
-2025-04-28 09:39:15.928 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
-2025-04-28 09:39:15.928 [main] INFO  Common.Listener - Test Method: Admin_Username started.
-2025-04-28 09:39:18.025 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
-2025-04-28 09:39:18.025 [main] INFO  Common.Listener - Test Method: Admin_Password started.
-2025-04-28 09:39:20.123 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
-2025-04-28 09:39:20.123 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
-2025-04-28 09:39:27.307 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
-2025-04-28 09:39:27.307 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
-2025-04-28 09:39:28.470 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
-2025-04-28 09:39:36.398 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
-2025-04-28 09:39:53.557 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
-2025-04-28 09:40:01.382 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
-2025-04-28 09:40:06.798 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
-2025-04-28 09:40:06.798 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
-2025-04-28 09:40:07.826 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
-2025-04-28 09:40:07.826 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
-2025-04-28 09:40:10.396 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
-2025-04-28 09:40:19.857 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
-2025-04-28 09:40:32.982 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
-2025-04-28 09:40:32.982 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
-2025-04-28 09:40:49.326 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Selenium Automation Project\UI_Automation\src\main\java\Repository\DummyFile.txt
-  (Session info: chrome=135.0.7049.115)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ab91de6d3a439f0566ea06bb0bdd7594, sendKeysToElement {id=f.B65E2206E5903076A7EA03EDE189D291.d.4A2D33E941FFA5A90484ED16CF40D36A.e.523, value=[Ljava.lang.CharSequence;@b6fea12}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50754/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ab91de6d3a439f0566ea06bb0bdd7594)] -> xpath: //*[@type = 'file']]
-Session ID: ab91de6d3a439f0566ea06bb0bdd7594
-2025-04-28 09:41:05.916 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
-2025-04-28 09:41:06.160 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
-2025-04-28 09:55:37.473 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
-2025-04-28 09:55:45.884 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
-2025-04-28 09:55:50.818 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
-2025-04-28 09:55:50.824 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
-2025-04-28 09:55:56.015 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
-2025-04-28 09:55:56.015 [main] INFO  Common.Listener - Test Method: Admin_Status started.
-2025-04-28 09:55:58.225 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
-2025-04-28 09:55:58.225 [main] INFO  Common.Listener - Test Method: Admin_Username started.
-2025-04-28 09:56:00.313 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
-2025-04-28 09:56:00.313 [main] INFO  Common.Listener - Test Method: Admin_Password started.
-2025-04-28 09:56:02.413 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
-2025-04-28 09:56:02.413 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
-2025-04-28 09:56:09.571 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
-2025-04-28 09:56:09.571 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
-2025-04-28 09:56:10.710 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
-2025-04-28 09:56:16.871 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
-2025-04-28 09:56:35.683 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
-2025-04-28 09:56:41.974 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
-2025-04-28 09:56:48.451 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
-2025-04-28 09:56:48.451 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
-2025-04-28 09:56:49.461 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
-2025-04-28 09:56:49.461 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
-2025-04-28 09:56:51.781 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
-2025-04-28 09:57:01.309 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
-2025-04-28 09:57:14.396 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
-2025-04-28 09:57:14.396 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
-2025-04-28 09:57:33.744 [main] ERROR Common.Listener - Test Method: PersonalDetails failed and the exception is : org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Selenium Automation Project\UI_Automation\src\main\java\Repository\DummyFile.txt
-  (Session info: chrome=135.0.7049.115)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0aecddf9042b3a1b32ecc4db273d2367, sendKeysToElement {id=f.46C34066D6D37BF52968C4FF5D7E5D73.d.803A2D3A8FD88C136532BDB856E2BB80.e.515, value=[Ljava.lang.CharSequence;@283ecb4b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51043/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0aecddf9042b3a1b32ecc4db273d2367)] -> xpath: //*[@type = 'file']]
-Session ID: 0aecddf9042b3a1b32ecc4db273d2367
-2025-04-28 09:57:40.183 [main] INFO  Common.Listener - Test Method: AccessRecords started.
-2025-04-28 09:57:55.479 [main] INFO  Common.Listener - Test Method: AccessRecords passed.
-2025-04-28 09:57:55.615 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
-2025-04-28 10:22:03.497 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
-2025-04-28 10:22:13.883 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
-2025-04-28 10:22:16.974 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
-2025-04-28 10:22:16.979 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
-2025-04-28 10:22:22.159 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
-2025-04-28 10:22:22.163 [main] INFO  Common.Listener - Test Method: Admin_Status started.
-2025-04-28 10:22:24.344 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
-2025-04-28 10:22:24.345 [main] INFO  Common.Listener - Test Method: Admin_Username started.
-2025-04-28 10:22:26.419 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
-2025-04-28 10:22:26.422 [main] INFO  Common.Listener - Test Method: Admin_Password started.
-2025-04-28 10:22:28.514 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
-2025-04-28 10:22:28.518 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
-2025-04-28 10:22:35.671 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
-2025-04-28 10:22:35.674 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
-2025-04-28 10:22:36.851 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
-2025-04-28 10:22:43.468 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
-2025-04-28 10:23:02.354 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
-2025-04-28 10:23:08.950 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
-2025-04-28 10:23:14.802 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
-2025-04-28 10:23:14.804 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
-2025-04-28 10:23:15.760 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
-2025-04-28 10:23:15.762 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
-2025-04-28 10:23:18.038 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
-2025-04-28 10:23:27.885 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
-2025-04-28 10:23:41.081 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
-2025-04-28 10:23:41.085 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
-2025-04-28 10:24:01.463 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
-2025-04-28 10:24:08.079 [main] INFO  Common.Listener - Test Method: AccessRecords started.
-2025-04-28 10:24:22.807 [main] INFO  Common.Listener - Test Method: AccessRecords passed.
-2025-04-28 10:24:22.951 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-03 11:25:45.960 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-03 11:25:56.985 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2025-05-03 11:26:00.321 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2025-05-03 11:26:00.327 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2025-05-03 11:26:05.494 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2025-05-03 11:26:05.494 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2025-05-03 11:26:07.707 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2025-05-03 11:26:07.707 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2025-05-03 11:26:09.795 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2025-05-03 11:26:09.795 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2025-05-03 11:26:11.906 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2025-05-03 11:26:11.906 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2025-05-03 11:26:19.080 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2025-05-03 11:26:19.080 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2025-05-03 11:26:20.222 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2025-05-03 11:26:26.904 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-05-03 11:26:45.708 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2025-05-03 11:26:52.033 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-05-03 11:26:58.501 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
+2025-05-03 11:26:58.501 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-05-03 11:26:59.941 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-05-03 11:26:59.941 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-05-03 11:27:26.731 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
+2025-05-03 11:27:36.300 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2025-05-03 11:27:49.467 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2025-05-03 11:27:49.467 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2025-05-03 11:28:12.887 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2025-05-03 11:28:18.987 [main] INFO  Common.Listener - Test Method: AccessRecords started.
+2025-05-03 11:28:34.020 [main] INFO  Common.Listener - Test Method: AccessRecords passed.
+2025-05-03 11:28:34.139 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-05-03 11:31:20.593 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-05-03 11:31:28.766 [main] INFO  Common.Listener - Test Method: Admin_UserRole started.
+2025-05-03 11:31:33.047 [main] INFO  Common.Listener - Test Method: Admin_UserRole passed.
+2025-05-03 11:31:33.055 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName started.
+2025-05-03 11:31:38.305 [main] INFO  Common.Listener - Test Method: Admin_EmployeeName passed.
+2025-05-03 11:31:38.305 [main] INFO  Common.Listener - Test Method: Admin_Status started.
+2025-05-03 11:31:40.505 [main] INFO  Common.Listener - Test Method: Admin_Status passed.
+2025-05-03 11:31:40.505 [main] INFO  Common.Listener - Test Method: Admin_Username started.
+2025-05-03 11:31:42.596 [main] INFO  Common.Listener - Test Method: Admin_Username passed.
+2025-05-03 11:31:42.596 [main] INFO  Common.Listener - Test Method: Admin_Password started.
+2025-05-03 11:31:44.677 [main] INFO  Common.Listener - Test Method: Admin_Password passed.
+2025-05-03 11:31:44.677 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword started.
+2025-05-03 11:31:51.848 [main] INFO  Common.Listener - Test Method: Admin_ConfirmPassword passed.
+2025-05-03 11:31:51.848 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername started.
+2025-05-03 11:31:52.984 [main] INFO  Common.Listener - Test Method: Admin_SystemUsername passed.
+2025-05-03 11:31:59.224 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-05-03 11:32:17.891 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2025-05-03 11:32:24.577 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-05-03 11:32:30.361 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList passed.
+2025-05-03 11:32:30.361 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-05-03 11:32:31.640 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-05-03 11:32:31.640 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-05-03 11:32:58.464 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 passed.
+2025-05-03 11:33:07.910 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee started.
+2025-05-03 11:33:21.027 [main] INFO  Common.Listener - Test Method: PIM_AddEmployee passed.
+2025-05-03 11:33:21.027 [main] INFO  Common.Listener - Test Method: PersonalDetails started.
+2025-05-03 11:33:44.285 [main] INFO  Common.Listener - Test Method: PersonalDetails passed.
+2025-05-03 11:33:50.487 [main] INFO  Common.Listener - Test Method: AccessRecords started.
+2025-05-03 11:34:05.787 [main] INFO  Common.Listener - Test Method: AccessRecords passed.
+2025-05-03 11:34:05.910 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.

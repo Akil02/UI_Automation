@@ -1,0 +1,28 @@
+2025-04-30 09:19:03.737 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-04-30 09:19:24.674 [main] INFO  Common.Listener - Test Method: Leave_Accept started.
+2025-04-30 09:19:42.071 [main] INFO  Common.Listener - Test Method: Leave_Accept passed.
+2025-04-30 09:19:42.203 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
+2025-04-30 09:20:24.049 [main] INFO  Common.Listener - Test Suite: OrangeHrm started.
+2025-04-30 09:20:32.697 [main] INFO  Common.Listener - Test Method: Recruitment_HiredList started.
+2025-04-30 09:20:48.888 [main] ERROR Common.Listener - Test Method: Recruitment_HiredList failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'oxd-sidepanel-body']//ul//li[5]//a//span[text() = 'Recruitment']"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5d2db3ef8a18e68eaf515e17e454e23, findElement {using=xpath, value=//*[@class = 'oxd-sidepanel-body']//ul//li[5]//a//span[text() = 'Recruitment']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51043/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5d2db3ef8a18e68eaf515e17e454e23
+2025-04-30 09:20:48.928 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 started.
+2025-04-30 09:21:04.362 [main] INFO  Common.Listener - Test Method: Recruitment_RejectionList1 passed.
+2025-04-30 09:21:04.366 [main] INFO  Common.Listener - Test Method: Recruitment_Rejected1 started.
+2025-04-30 09:21:34.503 [main] ERROR Common.Listener - Test Method: Recruitment_Rejected1 failed and the exception is : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'oxd-table-body']//div[1]//div//div[6]//div"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5d2db3ef8a18e68eaf515e17e454e23, findElement {using=xpath, value=//*[@class = 'oxd-table-body']//div[1]//div//div[6]//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\AAKILG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51043/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5d2db3ef8a18e68eaf515e17e454e23
+2025-04-30 09:21:34.682 [main] INFO  Common.Listener - Test Suite: OrangeHrm finished.
