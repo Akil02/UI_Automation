@@ -84,7 +84,8 @@ public class RecruitmentPage {
 			   String man = driver.findElement(By.xpath(manager)).getText();
 			   String dob = driver.findElement(By.xpath(dod)).getText();
 			   String st = driver.findElement(By.xpath(status1)).getText();			   
-			   String query = "Insert into Recruitment_FailedEmployees values('"+vac+"','"+can+"','"+man+"',TO_DATE('"+dob+"','YY-MM-DD'),'"+st+"')";  
+			   String query = "INSERT INTO Recruitment_FailedEmployees (vac, can, man, dob, st) " +
+		               "VALUES ('" + vac + "', '" + can + "', '" + man + "', TO_DATE('" + dob + "', 'YYYY-MM-DD'), '" + st + "')";
 			   resultSet = new Base().Data_Result(query, resultSet, statement);
 		   }
 	   }
