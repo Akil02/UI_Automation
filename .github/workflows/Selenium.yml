@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Change from ubuntu-latest to windows-latest
 
     services:
       oracle:
