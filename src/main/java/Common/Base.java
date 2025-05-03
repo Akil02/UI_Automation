@@ -54,8 +54,17 @@ public class Base {
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", prefs);
-		Path chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-win64", "chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", chromeDriverPath.toString());
+		String chromeDriverPath = "";
+		String os = System.getProperty("os.name").toLowerCase();
+
+		if (os.contains("win")) {
+		    // Windows path
+		    chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-win64", "chromedriver.exe").toString();
+		} else if (os.contains("nix") || os.contains("nux") || os.contains("mac")) {
+		    // Linux or Mac path
+		    chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-linux64", "chromedriver").toString();
+		}
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
 		  System.out.println("Started chrome");
