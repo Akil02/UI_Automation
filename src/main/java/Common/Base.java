@@ -54,6 +54,7 @@ public class Base {
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", prefs);
+		options.addArguments("--remote-allow-origins=*");
 		String chromeDriverPath = "";
 		String os = System.getProperty("os.name").toLowerCase();
 
@@ -65,6 +66,8 @@ public class Base {
 		    chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-linux64", "chromedriver").toString();
 		}
 		System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+		Path userDataDir = Paths.get(System.getProperty("user.dir"), "chromeUserData" + System.currentTimeMillis());
+		options.addArguments("user-data-dir=" + userDataDir.toString());
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
 		  System.out.println("Started chrome");

@@ -1,0 +1,19 @@
+[24220:12936:0503/235807.266:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[24472:24516:0503/235807.524:VERBOSE1:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[23336:14504:0503/235807.644:INFO:cpu_info.cc(53)] Available number of cores: 8
+[21136:20548:0503/235807.733:INFO:cpu_info.cc(53)] Available number of cores: 8
+[23740:25216:0503/235808.154:INFO:cpu_info.cc(53)] Available number of cores: 8
+[24028:26164:0503/235808.232:INFO:cpu_info.cc(53)] Available number of cores: 8
+[24220:12936:0503/235811.086:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login (0)
+[24220:12936:0503/235816.012:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq)", source: https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee (0)
+[24220:12936:0503/235822.200:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:5159
+[24220:12936:0503/235822.476:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:265059
+[24220:12936:0503/235822.977:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:883094
+[24220:12936:0503/235823.242:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2200227
+[24220:12936:0503/235823.773:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:45159
+[24220:12936:0503/235824.137:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2992963
+[24220:12936:0503/235824.500:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:4680
+[24220:12936:0503/235824.520:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2747170
+[24220:12936:0503/235824.960:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:118577
+[19004:16452:0503/235827.697:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[19004:16452:0503/235827.697:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
