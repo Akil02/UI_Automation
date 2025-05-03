@@ -8,6 +8,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -52,7 +54,8 @@ public class Base {
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", prefs);
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\chromedriver-win64\\chromedriver.exe");
+		Path chromeDriverPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "chromedriver-win64", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath.toString());
 		String brow = Prop().getProperty("Browser");
 		if(brow.equals("Chrome")) {
 		  System.out.println("Started chrome");
@@ -80,16 +83,18 @@ public class Base {
 	}
 	
 	public  Properties Prop() throws IOException {
-		FileReader reader=new FileReader(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\Config.properties");
+		Path configPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "Config.properties");
+		FileReader reader = new FileReader(configPath.toFile());
         Properties props=new Properties();
         props.load(reader);
 		return props;
 	}
 	
 	public Properties db_Prop() throws IOException {
- 		FileReader reader=new FileReader(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\db_config.properties");
+		 Path dbConfigPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "db_config.properties");
+		 FileReader dbReader = new FileReader(dbConfigPath.toFile());
          Properties props=new Properties();
-         props.load(reader);
+         props.load(dbReader);
  		return props;
  	}
 	
@@ -129,8 +134,9 @@ public class Base {
 	public XSSFWorkbook excel(){
 		XSSFWorkbook workbook = null;
 		try {
-		  FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\OrangeHRM_Excel.xlsx");
-		  workbook = new XSSFWorkbook(fs);
+			Path excelPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "OrangeHRM_Excel.xlsx");
+			FileInputStream fs = new FileInputStream(excelPath.toFile());
+			workbook = new XSSFWorkbook(fs);
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());
@@ -139,7 +145,8 @@ public class Base {
 	}
 	
 	public void WrightExcel(XSSFWorkbook workbook) throws Exception {
-		FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Repository\\OrangeHRM_Excel.xlsx");
+		Path excelPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Repository", "OrangeHRM_Excel.xlsx");
+		FileOutputStream fos = new FileOutputStream(excelPath.toFile());
 		workbook.write(fos);
 		fos.close();
 	}
@@ -152,7 +159,8 @@ public class Base {
 	public void TakeImage(String name,WebDriver driver1) throws Exception {
 		TakesScreenshot scrShot =((TakesScreenshot)driver1);
 		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
-		File DestFile=new File(System.getProperty("user.dir")+"\\src\\main\\java\\Images\\"+name+".jpg");
+		Path destPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Images", name + ".jpg");
+		File DestFile = destPath.toFile();
 		FileUtils.copyFile(SrcFile, DestFile);
 	}	
 /*	public Response KeyCreation() throws Exception {

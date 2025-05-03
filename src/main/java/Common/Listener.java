@@ -2,6 +2,8 @@ package Common;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -45,7 +47,8 @@ public class Listener implements ITestListener{
 	public void onStart(ITestContext context) {	
 		logger.info("Test Suite: " + context.getName() + " started.");
 		System.out.println("onStart method started");
-		String path = "C:\\Users\\A AKIL GANESH\\Eclipse java\\Automation_project\\src\\main\\java\\Images\\Report.html";
+		Path reportPath = Paths.get(System.getProperty("user.dir"), "src", "main", "java", "Images", "Report.html");
+		String path = reportPath.toString();
 		reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("WebApllication");
 		reporter.config().setDocumentTitle("Test result");
