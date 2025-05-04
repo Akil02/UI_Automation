@@ -31,8 +31,8 @@ public class LeavePage {
 	}
 	
 	public void ApproveLeave() throws Exception {
-		connection = new Base().Database_Statement(connection, statement);
-		statement = new Base().DBstatement(connection, statement);
+/*		connection = new Base().Database_Statement(connection, statement);
+		statement = new Base().DBstatement(connection, statement);  */
 		if(driver.findElements(Employee).size() != 0) {
 		  List<WebElement> a = driver.findElements(Employee);
 		  int i = 1;
@@ -65,7 +65,7 @@ public class LeavePage {
 			  }
 			  st = st2.trim();
 			  String query = "";
-			  if(!to.equals(" ")) {
+	/*		  if(!to.equals(" ")) {
 				  query  = "Insert into Employee_LeaveApprove values('"+name+"','"+type+"','"+Bal+"','"+num+"',to_date('"+from+"','YY-MM-DD'),to_date('"+to+"','YY-MM-DD'),'"+st+"','"+day+"')";
 			  }
 			  else if(to.equals("half")) {
@@ -75,7 +75,7 @@ public class LeavePage {
 				  query  = "Insert into Employee_LeaveApprove values('"+name+"','"+type+"','"+Bal+"','"+num+"',to_date('"+from+"','YY-MM-DD'),null,'"+st+"','"+day+"')";
 			  }
 			  System.out.println(query);
-			  resultSet = new Base().Data_Result(query, resultSet, statement);
+			  resultSet = new Base().Data_Result(query, resultSet, statement);  */
 			  driver.findElement(By.xpath(val)).click();
 			  a = driver.findElements(Employee);
 		  }

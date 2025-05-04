@@ -35,8 +35,8 @@ public class RecruitmentPage {
        connection.close();
    }  */
    public void HiredList() throws Exception {
-	   connection = new Base().Database_Statement(connection, statement);
-	   statement = new Base().DBstatement(connection, statement);
+/*	   connection = new Base().Database_Statement(connection, statement);
+	   statement = new Base().DBstatement(connection, statement);  */
        Thread.sleep(1000);
 	   boolean cond = false;
 	   List<WebElement> a12 = driver.findElements(len);
@@ -55,14 +55,14 @@ public class RecruitmentPage {
 			   String man = driver.findElement(By.xpath(manager)).getText();
 			   String dob = driver.findElement(By.xpath(dod)).getText();
 			   String st = driver.findElement(By.xpath(status1)).getText();			
-			   String query = "Insert into Recruitment_HiredEmployees values('"+vac+"','"+can+"','"+man+"',TO_DATE('"+dob+"','YY-MM-DD'),'"+st+"')";  
+	/*		   String query = "Insert into Recruitment_HiredEmployees values('"+vac+"','"+can+"','"+man+"',TO_DATE('"+dob+"','YY-MM-DD'),'"+st+"')";  
 			   System.out.println(query);
-			   resultSet = new Base().Data_Result(query, resultSet, statement);
+			   resultSet = new Base().Data_Result(query, resultSet, statement);   */
 		   }
 	   }
-	   if(cond == true) {
+/*	   if(cond == true) {
 	     new Base().DatabaseClose(resultSet, statement, connection);
-	   }
+	   }  */
    }
    
    public void RejectedList() throws Exception {
@@ -84,14 +84,14 @@ public class RecruitmentPage {
 			   String man = driver.findElement(By.xpath(manager)).getText();
 			   String dob = driver.findElement(By.xpath(dod)).getText();
 			   String st = driver.findElement(By.xpath(status1)).getText();			   
-			   String query = "INSERT INTO Recruitment_FailedEmployees (vac, can, man, dob, st) " +
+	/*		   String query = "INSERT INTO Recruitment_FailedEmployees (vac, can, man, dob, st) " +
 		               "VALUES ('" + vac + "', '" + can + "', '" + man + "', TO_DATE('" + dob + "', 'YYYY-MM-DD'), '" + st + "')";
-			   resultSet = new Base().Data_Result(query, resultSet, statement);
+			   resultSet = new Base().Data_Result(query, resultSet, statement);  */
 		   }
 	   }
-	   if(cond == true) {
+/*	   if(cond == true) {
 		   new Base().DatabaseClose(resultSet, statement, connection);
-	   }
+	   }  */
    }
    
    public void Rejected() throws Exception {
