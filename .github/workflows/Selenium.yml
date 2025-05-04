@@ -14,22 +14,22 @@ jobs:
       oracle:
         image: akil303/oracle-xe-with-data:latest
         ports:
-          - 1523:1521
+          - 1524:1521
         env:
           ORACLE_PASSWORD: Oracle123
         options: >-
-          --shm-size=2g
+          --shm-size=4g
           --health-cmd "echo 'SELECT 1 FROM DUAL;' | sqlplus -S system/Oracle123@localhost/XEPDB1"
-          --health-interval=30s
-          --health-timeout=10s
-          --health-retries=10
+          --health-interval=60s
+          --health-timeout=30s
+          --health-retries=30
 
     steps:
     - name: Wait for Oracle DB to be ready
       run: |
         for i in {1..30}; do
           echo "Waiting for Oracle DB to be ready ($i)..."
-          echo "exit" | sqlplus system/Oracle123@localhost:1523/XEPDB1 && break
+          echo "exit" | sqlplus system/Oracle123@localhost:1524/XEPDB1 && break
           sleep 10
         done
 
@@ -57,3 +57,7 @@ jobs:
 
     - name: Run Selenium Tests
       run: mvn test
+
+    - name: Get container logs for debugging
+      run: |
+        docker logs $(docker ps -q --filter ancestor=akil303/oracle-xe-with-data:latest)
