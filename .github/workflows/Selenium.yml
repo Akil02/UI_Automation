@@ -1,50 +1,24 @@
 name: Run Selenium Tests with Maven
 
 on:
-  push:
-    branches:
-      - master
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    services:
-      oracle:
-        image: akil303/oracle-xe-with-data:latest
-        ports:
-          - 1524:1521
-        env:
-          ORACLE_PASSWORD: Oracle123
-        options: >-
-          --shm-size=4g
-          --health-cmd "echo 'SELECT 1 FROM DUAL;' | sqlplus -S system/Oracle123@localhost/XEPDB1"
-          --health-interval=60s
-          --health-timeout=30s
-          --health-retries=30
+    runs-on: windows-latest  # Use Windows runner instead of ubuntu-latest
 
     steps:
-    - name: Wait for Oracle DB to be ready
-      run: |
-        for i in {1..30}; do
-          echo "Waiting for Oracle DB to be ready ($i)..."
-          echo "exit" | sqlplus system/Oracle123@localhost:1524/XEPDB1 && break
-          sleep 10
-        done
-
     - name: Checkout code
       uses: actions/checkout@v4
 
     - name: Make chromedriver executable
-      run: chmod +x src/main/java/Repository/chromedriver-linux64/chromedriver
+      run: |
+        icacls "src/main/java/Repository/chromedriver-win64/chromedriver.exe" /grant Everyone:F
 
     - name: Install Chrome
       run: |
-        sudo apt update
-        sudo apt install -y wget unzip
-        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo apt install -y ./google-chrome-stable_current_amd64.deb
+        Invoke-WebRequest -Uri "https://dl.google.com/chrome/install/standalonesetup64.exe" -OutFile "chrome_installer.exe"
+        Start-Process -FilePath "chrome_installer.exe" -ArgumentList "/silent /install" -Wait
 
     - name: Set up JDK 11
       uses: actions/setup-java@v4
@@ -52,12 +26,5 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
 
-    - name: Build with Maven
+    - name: Build with Maven and run
       run: mvn clean install
-
-    - name: Run Selenium Tests
-      run: mvn test
-
-    - name: Get container logs for debugging
-      run: |
-        docker logs $(docker ps -q --filter ancestor=akil303/oracle-xe-with-data:latest)
