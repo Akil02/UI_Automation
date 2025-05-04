@@ -66,8 +66,8 @@ public class RecruitmentPage {
    }
    
    public void RejectedList() throws Exception {
-	   connection = new Base().Database_Statement(connection, statement);
-	   statement = new Base().DBstatement(connection, statement);
+/*	   connection = new Base().Database_Statement(connection, statement);
+	   statement = new Base().DBstatement(connection, statement);  */
 	   boolean cond = false;
 	   List<WebElement> a = driver.findElements(len);
 	   for(int i = 1;i<=a.size();i++) {

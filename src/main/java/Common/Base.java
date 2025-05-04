@@ -55,11 +55,6 @@ public class Base {
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", prefs);
-		options.addArguments("--headless=new"); // Required in CI
-		options.addArguments("--disable-gpu");  // Avoid GPU issues in CI
-		options.addArguments("--no-sandbox");   // Required for CI
-		options.addArguments("--disable-dev-shm-usage"); // Required for CI
-		options.addArguments("--remote-allow-origins=*");
 		String chromeDriverPath = "";
 		String os = System.getProperty("os.name").toLowerCase();
 
