@@ -12,7 +12,7 @@ jobs:
 
     services:
       oracle:
-        image: gvenzl/oracle-xe:slim  # Lighter image
+        image: akil303/oracle-xe-with-data:latest
         ports:
           - 1523:1521
         env:
