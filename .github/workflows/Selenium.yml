@@ -1,6 +1,11 @@
 name: Run Selenium Tests with Maven
 
 on:
+  schedule:
+    - cron: '30 23 * * *'   # Runs at 11:30 PM UTC → 5:00 AM IST
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
